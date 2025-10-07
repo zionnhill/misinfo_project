@@ -1,14 +1,8 @@
 import pandas as pd
-import zipfile
-import os
 
-# Unzip the dataset
-with zipfile.ZipFile('MisInfoText-master.zip', 'r') as zip_ref:
-    zip_ref.extractall('MisInfoText_master')
-
-# Explore the contents
-os.listdir('MisInfoText_master')
-
-# Load main file (example: claims.csv)
-df = pd.read_csv('MisInfoText_master/claims.csv')
-df.head()
+df = pd.read_csv("FACTOID-dataset-main.csv")
+print(df.head())
+print(df.info())
+print(df.describe())
+print(df.isnull().sum())
+print(df['label'].value_counts())
