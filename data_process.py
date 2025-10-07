@@ -4,7 +4,7 @@ import re
 import string
 
 # Load your dataset
-df = pd.read_csv('your_dataset.csv')  # Replace with your actual file path
+df = pd.read_csv('/Users/daryldadang/Downloads/misinfo_project/liar_dataset/liar_dataset-master/test_pos.csv')  # Replace with your actual file path
 
 # Display basic info
 print("Initial Data Overview:")
