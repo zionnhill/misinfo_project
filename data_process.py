@@ -4,7 +4,7 @@ import re
 import string
 import os
 
-# List your actual CSV filenames here
+
 csv_files = [
     'test_pos.csv',
     'train_pos.csv',
@@ -37,7 +37,7 @@ for file in csv_files:
     # Drop duplicates
     df.drop_duplicates(inplace=True)
 
-    # Fill missing values
+  
     for col in df.columns:
         if df[col].dtype == 'object':
             df[col].fillna('', inplace=True)
