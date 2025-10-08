@@ -1,6 +1,6 @@
-# 🧠 Misinformation Detection on Social Media
+# Misinformation Detection on Social Media
 
-## 📘 Project Overview
+## Project Overview
 This project focuses on detecting **misinformation on social media platforms** using machine learning.  
 It is part of a cybersecurity initiative to help identify and reduce the spread of false or misleading information online.
 target: elderly people
@@ -14,7 +14,7 @@ The project involves:
 
 ---
 
-## 🧩 Phase 1: Data Processing
+## Phase 1: Data Processing
 This phase prepares the dataset for machine learning analysis.
 
 ### **Goals**
