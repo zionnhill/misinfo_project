@@ -59,7 +59,7 @@ for file in csv_files:
 # Merge all cleaned DataFrames if they have the same structure
 if cleaned_dfs and all(df.columns.equals(cleaned_dfs[0].columns) for df in cleaned_dfs):
     combined_df = pd.concat(cleaned_dfs, ignore_index=True)
-    combined_df.to_csv('cleaned_combined_dataset.csv', index=False)
+    combined_df.to_csv("cleaned_combined_dataset.csv", index=False)
     print("✅ Saved merged cleaned dataset to cleaned_combined_dataset.csv")
 else:
     print("⚠️ Files have different structures; skipping merge.")
