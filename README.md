@@ -1,41 +1,33 @@
 # Misinformation Detection on Social Media
 
 ## Project Overview
-This project detects **misinformation on social media platforms** using machine learning, targeting elderly users to help them identify false or misleading posts.  
-It is part of a cybersecurity initiative to improve online safety.
+This project focuses on detecting **misinformation on social media platforms** using machine learning.  
+It is part of a cybersecurity initiative to help identify and reduce the spread of false or misleading information online.
+target: elderly people
 
-### Project Workflow
-1. Collect real-world social media datasets.
-2. Process and clean text data.
-3. Extract features such as text content and user behavior.
-4. Train and evaluate machine learning models.
-5. Build a web application to demonstrate predictions.
+The project involves:
+1. Collecting real-world social media datasets.
+2. Processing and cleaning text data.
+3. Extracting useful features such as text content and user behaviour.
+4. Training and evaluating machine learning models.
+5. Developing a simple web application to demonstrate model results.
 
 ---
 
 ## Phase 1: Data Processing
-Prepare datasets for ML analysis:
+This phase prepares the dataset for machine learning analysis.
 
-**Goals**
-- Inspect and load raw data.
-- Clean text (remove URLs, punctuation, numbers).
+### **Goals**
+- Load and inspect raw data.
+- Clean text fields (remove URLs, punctuation, numbers, etc.).
 - Handle missing values and duplicates.
-- Save cleaned datasets for model training.
+- Save cleaned versions of the datasets.
 
-**How to run:**
+---
+
+How to run code:
+- python3 data_process.py
+
 ```bash
-python3 data_process.py
+python3 --version
 pip install pandas numpy
-
-Web App (React)
-
-npm start – Run locally Runs the app in the development mode.\ Open [http://localhost:3000](http://localhost:3000)
-
-npm test – Run tests
-
-npm run build – Build for production
-
-Project Structure
-frontend/  # React frontend
-backend/   # FastAPI backend
-README.md  # This file
