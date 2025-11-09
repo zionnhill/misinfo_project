@@ -29,7 +29,7 @@ pip install pandas numpy
 
 Web App (React)
 
-npm start – Run locally
+npm start – Run locally Runs the app in the development mode.\ Open [http://localhost:3000](http://localhost:3000)
 
 npm test – Run tests
 
